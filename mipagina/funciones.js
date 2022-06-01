@@ -1,0 +1,1 @@
+var deleteConfirm = window.confirm("¿Está seguro que desea continuar?");

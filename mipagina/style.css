@@ -1,0 +1,81 @@
+body{
+    font-family: 'Times New Roman', 'Didot', serif;
+    margin-left: 0;
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+	width: 100%;
+	font-size:20px;
+    line-height: 1.6em;
+    background-image: url("fosiles.jpg");
+}
+h1{
+    font-size: 1.5rem;
+    line-height: 1.2em;
+    margin-bottom: 1.6em;
+}
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.header {
+    background: #640808ef;
+    color: rgb(34, 34, 112);
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    
+}
+.header a{
+    color: rgba(196, 191, 191, 0.384);
+    text-decoration: none;
+}
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    letter-spacing: 9px;
+    font-size: 2em;
+}
+.navigation ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.navigationul ul li {
+    display: inline-block;
+}
+.navigation ul li a {
+    display: block;
+    padding: 0,6rem 1.2rem;
+    transition: all 0.4s linear;
+    border-radius: 1,5px;
+}
+.navigation ul li:hover{
+    background: #06043148
+}
+.main{
+    padding-top: 14rem;
+    font-weight: bold;
+}
+.fijo{
+    font-weight: none;
+} 
+.text {
+    width: 100px;
+    height: 50px;
+    background-color:#8b2c2cb6;
+    padding: 10px;
+}
+.footer{
+    background: #535050b6;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 18px;
+}
